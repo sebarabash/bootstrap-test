@@ -12,7 +12,7 @@ body {
   height: 100%;
   width: 100%;
   color: #222;
-  background-color: lightslategray;
+  background-color: #cccccc;
 }
 .navbar-nav li {
   padding-right: 20px;
@@ -46,14 +46,17 @@ body {
   padding: 50px;
 }
 .pic {
-  width: 400%;
+  width: 300px;
   height: 300px;
-  display: flex;
+  padding: 0;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  color: dimgrey;
-  background-color: #222;
+  align-items: center; */
   box-shadow: black 5px 5px 20px;
+}
+.pic img {
+  width: 100%;
+  height: 100%;
 }
 .carousel-inner {
   height: 500px;
@@ -66,7 +69,6 @@ body {
 .carousel-item img {
   height: 100%;
 }
-
 
 @media (min-width: 350px) {
   .carousel-inner img {
@@ -98,9 +100,9 @@ body {
   color: firebrick;
   text-shadow: 3px 3px 10px #000;
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .carousel-caption .display-2 {
-    font-size: 3em;
+    font-size: 2em;
     transform: translateY(-90%);
   }
 }
@@ -125,12 +127,11 @@ body {
   margin: 0 auto;
   padding-top: 2em;
 }
-@media (max-width:500px){
-    .alert {
-  width: 100%;
-  font-size: 1em;
-  
-}
+@media (max-width: 500px) {
+  .alert {
+    width: 100%;
+    font-size: 1em;
+  }
 }
 .alert hr {
   border-top: 2px solid silver;
@@ -162,13 +163,99 @@ body {
 .green {
   text-align: center;
 }
-.copy{
+.copy {
   font-weight: 700;
   margin: 5px;
 }
-.copy::first-letter{
+.copy::first-letter {
   color: firebrick;
 }
+/* новая секция  с гиф картинками  */
+
+#fixed {
+  height: 450px;
+  border-top: 4px solid #f0f0f0;
+  border-bottom: 4px solid #f0f0f0;
+  background: url("./img/bg1.jpg") no-repeat center center fixed;
+  background-blend-mode: multiply;
+  background-color: lightblue;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+#gifs img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.card-img-top{
+  height: 200px;
+  width: 100%;
+}
+
+.shadow{
+  padding:5px;
+  box-shadow: 5px 5px 10px #ccc;
+}
+.card{
+  padding:0;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+
+
+
+/* контакты */
+
+.social a{
+font-size: 2em;
+padding: 20px;
+}
+.fa-facebook{color: #3b5998;}
+.fa-instagram{color: #517fa4;}
+.fa-google-plus-g{color: #dd4b39;}
+.fa-vk{color: #45668e;}
+
+.fa-vk:hover{color: #ccc;}  
+.fa-google-plus-g:hover{color: #ccc;}  
+.fa-instagram:hover{color: #ccc;}  
+.fa-facebook:hover{color: #ccc;}
+
+.footer{
+  padding-top: 50px;
+  background-color: #3f3f3f;
+  color: #fff;
+  border-top: 4px solid silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
