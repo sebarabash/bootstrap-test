@@ -75,7 +75,7 @@
           <img
             src="img/2000x500/wp2.jpg"
             alt="responsive image"
-             class="d-block img-fluid" 
+            class="img-fluid"
           />
         </div>
         <div class="carousel-item">
@@ -167,18 +167,153 @@
       </div>
       <hr class="my-4" />
     </div>
-    <div class="container-fluid photo-container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pic">left</div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pic">center</div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pic">right</div>
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="offset-lg-2 col-lg-4 text-center">
+          <h2>вёрстка макетов</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut,
+            blanditiis, iste facilis quam soluta fugiat doloribus corrupti,
+            atque ullam ipsam voluptate at natus! Repellendus nemo ipsum ullam
+            ab facilis! <br /><br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+            et. Fugit officiis ab, similique explicabo animi ipsum placeat magni
+            possimus, adipisci recusandae omnis, sit libero doloribus dolores
+            voluptates esse eligendi.
+          </p>
+          <br />
+          <a href="#" class="btn btn-danger text-center">подробнее</a>
+        </div>
+        <div class="col-lg-6">
+          <br /><img src="img/btstrp.jpg" class="img-fluid text-center" />
+        </div>
       </div>
     </div>
-    <hr>
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed"></div>
+      </div>
+    </figure>
+    <div class="text-center">
+      <button
+        type="button"
+        class="btn btn-success"
+        data-toggle="collapse"
+        data-target="#gifs"
+      >
+        нажми меня
+      </button>
+    </div>
+    <div class="collapse" id="gifs">
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-3">
+            <img src="img/gif1.gif" class="gif" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="img/gif2.gif" class="gif" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="img/gif3.gif" class="gif" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="img/gif4.gif" class="gif" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid photo-container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 pic">
+          <img src="img/photo1.jpg" alt="фото" class="photo" />
+        </div>
+        <div class="col-md-4 col-lg-4 pic">
+          <img src="img/photo2.jpg" alt="фото" class="photo" />
+        </div>
+        <div class="col-md-4 col-lg-4 pic">
+          <img src="img/photo3.jpg" alt="фото" class="photo" />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- секция с карточками языков программирования -->
+    <div class="container-fluid padding">
+      <div class="row alert text-center">
+        <div class="col-12">
+          <h2 class="displey-4">Языки программирования</h2>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="container padding">
+      <div class="row padding">
+        <div class="col-md-4 shadow">
+          <div class="card">
+            <img src="img/js.jpg" class="card-img-top" />
+            <div class="card-body text-center">
+              <h4 class="card-title">Java Script</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                quia eaque saepe sed obcaecati iusto quisquam nemo assumenda
+                illum quos.
+              </p>
+              <a href="#" class="btn btn-warning">Посмотреть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 shadow">
+          <div class="card">
+            <img src="img/php.png" class="card-img-top" />
+            <div class="card-body text-center">
+              <h4 class="card-title">php</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                quia eaque saepe sed obcaecati iusto quisquam nemo assumenda
+                illum quos.
+              </p>
+              <a href="#" class="btn btn-warning">Посмотреть</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 shadow">
+          <div class="card">
+            <img src="img/python.jpeg" class="card-img-top" />
+            <div class="card-body text-center">
+              <h4 class="card-title">python</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                quia eaque saepe sed obcaecati iusto quisquam nemo assumenda
+                illum quos.
+              </p>
+              <a href="#" class="btn btn-warning">Посмотреть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- футер с контактами -->
+    
+    <div class="container-fluid footer">
+      <div class="container">
+          <div class="row padding text-center">
+             <div class="col-12">
+               <h2>Наши контакты</h2>
+             </div>
+             <div class="col-12 social padding">
+               <a href="@"><i class="fab fa-instagram"></i></a>
+              <a href="@"><i class="fab fa-facebook"></i></a>
+              <a href="@"><i class="fab fa-google-plus-g"></i></a>
+              <a href="@"><i class="fab fa-vk"></i></a>
+             </div>
+          </div>
+      </div>
+    </div>
     <footer class="container-fluid text-center">
       <div class="row">
-      <span class="icon">&copy;</span>
-      <span class="copy"> SRGStudio 2020</span>
+        <span class="icon">&copy;</span>
+        <span class="copy"> SRGStudio 2020</span>
       </div>
     </footer>
   </body>
